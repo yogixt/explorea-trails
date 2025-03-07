@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Globe, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { Mountain, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <Link to="/" className="flex items-center mb-4">
-              <Globe className="h-7 w-7 text-white" />
+              <Mountain className="h-7 w-7 text-white" />
               <span className="ml-2 text-xl font-bold text-white">Offbeats</span>
             </Link>
             <p className="text-sm mb-6 opacity-70">

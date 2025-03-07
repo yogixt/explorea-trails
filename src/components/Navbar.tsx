@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Globe, Search, Heart, User } from 'lucide-react';
+import { Menu, X, Mountain, Search, Heart, User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <Globe className="h-8 w-8 text-explorea-forest" />
+              <Mountain className="h-8 w-8 text-explorea-forest" />
               <span className="ml-2 text-xl font-bold text-explorea-forest">Offbeats</span>
             </Link>
           </div>
