@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Globe, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
@@ -11,10 +10,10 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center mb-4">
               <Globe className="h-7 w-7 text-white" />
-              <span className="ml-2 text-xl font-bold text-white">Explorea</span>
+              <span className="ml-2 text-xl font-bold text-white">Offbeats</span>
             </Link>
             <p className="text-sm mb-6 opacity-70">
-              Discover the world's most amazing places with Explorea. We help you find, plan and enjoy extraordinary travel experiences.
+              Discover the world's most amazing places with Offbeats. We help you find, plan and enjoy extraordinary travel experiences.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
@@ -70,7 +69,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-8 text-sm">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {new Date().getFullYear()} Explorea. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Offbeats. All rights reserved.</p>
             <div className="mt-4 md:mt-0">
               <select className="bg-gray-800 text-gray-300 rounded py-1 px-2 text-sm border border-gray-700">
                 <option value="en">English</option>
