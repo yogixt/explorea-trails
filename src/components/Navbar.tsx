@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Mountain, Search, Heart, User } from 'lucide-react';
+import { Menu, X, Search, Heart, User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
@@ -13,7 +13,11 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <Mountain className="h-8 w-8 text-explorea-forest" />
+              <img 
+                src="/lovable-uploads/f8250dd6-05ce-48b4-adeb-70a93e14d13c.png" 
+                alt="Offbeats Logo" 
+                className="h-10 w-10" 
+              />
               <span className="ml-2 text-xl font-bold text-explorea-forest">Offbeats</span>
             </Link>
           </div>

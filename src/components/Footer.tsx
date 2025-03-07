@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mountain, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,7 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <Link to="/" className="flex items-center mb-4">
-              <Mountain className="h-7 w-7 text-white" />
+              <img 
+                src="/lovable-uploads/f8250dd6-05ce-48b4-adeb-70a93e14d13c.png" 
+                alt="Offbeats Logo" 
+                className="h-8 w-8" 
+              />
               <span className="ml-2 text-xl font-bold text-white">Offbeats</span>
             </Link>
             <p className="text-sm mb-6 opacity-70">
