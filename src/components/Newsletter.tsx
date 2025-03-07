@@ -21,7 +21,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-explorea-ocean text-white">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-primary text-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-4">Join Our Travel Community</h2>
@@ -40,7 +40,7 @@ const Newsletter = () => {
               onChange={(e) => setEmail(e.target.value)}
               required
             />
-            <Button type="submit" className="bg-white text-explorea-ocean hover:bg-white/90">
+            <Button type="submit" className="bg-white text-primary hover:bg-white/90">
               Subscribe
             </Button>
           </div>

@@ -5,7 +5,7 @@
 
 @layer base {
   :root {
-    --background: 60 33% 98%;
+    --background: 0 0% 100%;
     --foreground: 20 14.3% 4.1%;
 
     --card: 0 0% 100%;
@@ -14,17 +14,17 @@
     --popover: 0 0% 100%;
     --popover-foreground: 20 14.3% 4.1%;
 
-    --primary: 160 40% 30%;
+    --primary: 142 76% 36%;
     --primary-foreground: 60 9.1% 97.8%;
 
-    --secondary: 199 70% 36%;
-    --secondary-foreground: 60 9.1% 97.8%;
+    --secondary: 160 40% 90%;
+    --secondary-foreground: 160 40% 30%;
 
     --muted: 60 4.8% 95.9%;
     --muted-foreground: 25 5.3% 44.7%;
 
-    --accent: 29 100% 48%;
-    --accent-foreground: 60 9.1% 97.8%;
+    --accent: 142 76% 96%;
+    --accent-foreground: 142 76% 30%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 60 9.1% 97.8%;
@@ -95,7 +95,7 @@
   }
 
   .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1469474968028-56623f02e42e');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1469474968028-56623f02e42e');
     background-size: cover;
     background-position: center;
   }

@@ -64,11 +64,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				explorea: {
-					forest: '#2D6A4F',
-					ocean: '#1A759F',
+					forest: '#22c55e',
+					ocean: '#0ea5e9',
 					sunset: '#F77F00',
 					sand: '#F8F4E3',
-					stone: '#6B705C'
+					stone: '#6B705C',
+					lightgreen: '#ecfdf5'
 				}
 			},
 			borderRadius: {
