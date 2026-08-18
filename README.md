@@ -1,69 +1,18 @@
-# Welcome to your project
+# Explorea Trails
 
-## Project info
+A prototype travel-discovery app — browse destinations, view details, and plan trips. Part of the same lineage as the [Offbeats](https://github.com/yogixt/offbeat1.2) travel apps, built as a Lovable project exploring a broader (non-region-specific) destinations concept.
 
-**URL**: https://lovable.dev/projects/f56c8edc-3db3-4f4c-8d4e-8a148a66e55b
+**Live:** [explorea-trails.vercel.app](https://explorea-trails.vercel.app)
 
-## How can I edit this code?
+![Explorea Trails landing page](docs/screenshot.png)
 
-There are several ways of editing your application.
+## Stack
 
-**Use Lovable**
+- React · TypeScript · Vite · shadcn/ui · Tailwind CSS
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f56c8edc-3db3-4f4c-8d4e-8a148a66e55b) and start prompting.
+## Development
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f56c8edc-3db3-4f4c-8d4e-8a148a66e55b) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
